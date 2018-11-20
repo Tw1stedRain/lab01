@@ -1,46 +1,130 @@
-@media only screen and (max-width : 768px) {
-  #a{
-    height: 75px;
+@media only screen and (max-width : 480px) {
+  main {
     width: 480px;
+  }
+  #a{
+    height: 73px;
+    width: 478px;
     margin: auto;
+    background-color: purple;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
   }
   #b {
-    height: 150px;
-    width: 480px;
+    height: 148px;
+    width: 478px;
     margin: auto;
+    background-color: blue;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
   }
-  #c {
-    height: 125px;
-    width: 480px;
-    margin: auto;
+  #c, #d {
+    height: 123px;
+    width: 478px;
+    background-color: green;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
   }
-  #d {
-    height: 125px;
-    width: 480px;
-    margin: 0, 0, 0, 0;
-  }
-  #e  {
-    height: 250px;
-    width: 240px;
+  #e, #g{
+    height: 248px;
+    width: 238px;
     float: left;
+    background-color: aqua;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
   }
-  #f {
-    height: 250px;
-    width: 240px;
+  #f, #h {
+    height: 248px;
+    width: 238px;
     float: right;
-  }
-  #g {
-    height: 250px;
-    width: 240px;
-    float: left;
-  }
-  #h {
-    height: 250px;
-    width: 240px;
-    float: right;
+    background-color: pink;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
   }
   #i {
-    height: 80px;
-    width: 480px;
+    height: 78px;
+    width: 478px;
+    background-color: purple;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    float: none;
   }
+}
+
+
+body {
+  width: 780px;
+}
+main {
+   width: 768px;
+   margin: auto;
+}
+#a {
+  height: 98px;
+  width: 958px;
+  margin: auto;
+  background-color: red;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+}
+#b {
+  height: 598px;
+  width: 198px;
+  margin: none;
+  background-color: blue;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  float: left;
+}
+#same {
+  float: right;
+}
+#c, #d {
+  height: 198px;
+  width: 378px;
+  background-color: green;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+}
+#c {
+  float: left;
+}
+#d {
+  float: left;
+}
+#e, #g{
+  height: 248px;
+  width: 188px;
+  float: left;
+  background-color: aqua;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+}
+#f, #h {
+  height: 248px;
+  width: 188px;
+  float: right;
+  background-color: pink;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  }
+#i {
+  height: 148px;
+  width: 758px;
+  background-color: purple;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  float: none;
 }
