@@ -1,5 +1,3 @@
-/* mobile version */
-
 @media(max-width : 767px) {
   main {
     width: 480px;
@@ -29,11 +27,13 @@
     border: black;
     border-width: 1px;
     border-style: solid;
+
   }
   #e, #g{
     height: 248px;
     width: 238px;
     float: left;
+
     background-color: aqua;
     border: black;
     border-width: 1px;
@@ -84,6 +84,9 @@
     border-width: 1px;
     border-style: solid;
     float: left;
+    margin: none;
+    background-color: brown;
+    border: none;
   }
 
   #c, #d {
@@ -119,6 +122,8 @@
   #e, #f, #g, #h {
     float: left;
   }
+
+  
   #i {
     height: 148px;
     width: 758px;
