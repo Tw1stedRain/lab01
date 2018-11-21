@@ -1,46 +1,105 @@
-@media only screen and (max-width : 768px) {
-  #a{
+@media (max-width : 767px) {
+
+  /* #main {
+    width: 767px;
+
+  } */
+  #a {
     height: 75px;
     width: 480px;
-    margin: auto;
+    margin: none;
+    background-color: blue;
+    border: 1px solid black;
   }
   #b {
     height: 150px;
     width: 480px;
-    margin: auto;
+    margin: none;
+    background-color: red;
+    border: none;
   }
   #c {
     height: 125px;
     width: 480px;
-    margin: auto;
+    margin: none;
+    background-color: yellow;
+    border: none;
+    float: inline-start;
   }
+  
   #d {
     height: 125px;
     width: 480px;
-    margin: 0, 0, 0, 0;
+    /* margin: none; */
+    background-color:pink;
+    border: none;
+
   }
   #e  {
     height: 250px;
     width: 240px;
     float: left;
+    margin: none;
+    background-color: yellow;
+    border: none;
   }
   #f {
     height: 250px;
     width: 240px;
     float: right;
+    margin: none;
+    background-color: blue;
+    border: none;
   }
   #g {
     height: 250px;
     width: 240px;
     float: left;
+    margin: none;
+    background-color: brown;
+    border: none;
   }
   #h {
     height: 250px;
     width: 240px;
     float: right;
+    margin: none;
+    background-color: blue;
+    border: none;
   }
+
+  
   #i {
     height: 80px;
     width: 480px;
+    background-color: black;
   }
 }
+
+body {
+  width: 960px;
+  margin: auto;
+} 
+
+ #b {
+  float: left;
+}
+
+#d {
+  float: right;
+} 
+
+
+ div {
+  float: inline-start;
+  width: 1000px;
+  height: 190px;
+  padding: 0;
+  border: none;
+ 
+}
+
+#e, #f, #g, #h {
+  /* margin: auto!important;  */
+  /* padding: 0px;
+} 
